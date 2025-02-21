@@ -30,10 +30,10 @@ SWITCHING IN CISCO
  <img  src="Membuat Banner.png" alt="cable"  width="300px">
  
 <h2>Membuat Sandi / Password</h2>
- <img  src="Membuat Sandi / Password.png" alt="cable"  width="300px">
+ <img  src="Membuat Sandi  Password.png" alt="cable"  width="300px">
  
 <h2>Membuat Settingan U/Telnet</h2>
- <img  src="Membuat Settingan U/Telnet.png" alt="cable"  width="300px">
+ <img  src="Membuat Settingan UTelnet.png" alt="cable"  width="300px">
  
 <h2>Membuat Settingan VLAN</h2>
  <img  src="Membuat Settingan VLAN.png" alt="cable"  width="300px">
@@ -45,7 +45,6 @@ SWITCHING IN CISCO
  <img  src="Menyimpan konfigurasi di NVRAM.png" alt="cable"  width="300px">
  
 <h2>Melihat daftar VLAN</h2>
- <img  src="Melihat daftar VLAN.png" alt="cable"  width="300px">
 
 <br>
 <br>
@@ -55,10 +54,8 @@ SWITCHING IN CISCO
  <img  src="topologi 2.png" alt="cable"  width="300px">
 
 <h2>Melihat daftar VLAN</h2>
- <img  src="Melihat daftar VLAN.png" alt="cable"  width="300px">
  
 <h2 style="font-weight: bold;">Konfigurasi SWITCH VTP SERVER</h2>
-
 <h2>Membuat Nama pada Switc</h2>
 
 <h2>Membuat Banner</h2>
@@ -114,8 +111,62 @@ SWITCHING IN CISCO
  <img  src="Melihat status VTP pada CLIENT.png" alt="cable"  width="300px">
  
 <h2 style="font-weight: bold;">Melihat status VTP pada SERVER</h2>
- <img  src="Melihat status VTP pada SERVER.png" alt="cable"  width="300px">
+ <img  src="Melihat status VTP pada SERVER_TRUNK.png" alt="cable"  width="300px">
 
 <h2 style="font-weight: bold;">Melihat status VTP pada CLIENT</h2>
- <img  src="Melihat status VTP pada CLIENT.png" alt="cable"  width="300px">
+ <img  src="Melihat status VTP pada CLIENT TRUNK.png" alt="cable"  width="300px">
+
+<h1 style="font-weight: bold;">
+Analisis
+</h1 >
+
+<ul>
+  <li>
+       VLAN digunakan untuk membagi jaringan dalam satu switch agar lebih terstruktur dan aman. Setiap VLAN memiliki subnet berbeda, sehingga komunikasi antar VLAN membutuhkan router atau inter-VLAN routing.
+  </li>
+  <li>
+    VTP (VLAN Trunking Protocol) mempermudah pengelolaan VLAN di jaringan multi-switch. Server VTP membuat dan menyebarkan VLAN ke Client VTP, sehingga konfigurasi VLAN lebih efisien.
+  </li>
+  <li>
+    Port Trunk memungkinkan lalu lintas beberapa VLAN melewati satu link antar-switch, memastikan VLAN tetap terhubung di seluruh jaringan.
+  </li>
+  <li>
+    Verifikasi dengan show vlan brief, show interface trunk, dan show vtp status menunjukkan apakah konfigurasi sudah benar dan VLAN telah terdistribusi ke semua switch.
+  </li>
+</ul>
+
+ 
+    
+    
+    
+
+
+<h1 style="font-weight: bold;">
+Kesimpulan
+</h1 >
+
+<ul>
+  <li>
+VLAN digunakan untuk membagi jaringan secara logis dalam satu switch, meningkatkan keamanan dan efisiensi jaringan.
+  </li>
+  <li>
+VTP mempermudah pengelolaan VLAN di jaringan dengan banyak switch, karena semua VLAN dibuat di satu switch (server) dan otomatis didistribusikan ke switch lainnya (client).
+  </li>
+  <li>
+Port trunk sangat penting untuk menghubungkan switch dalam jaringan berbasis VLAN, memungkinkan lalu lintas VLAN melewati satu link fisik.
+  </li>
+  <li>
+Dengan konfigurasi ini, setiap PC dalam VLAN yang sama dapat saling berkomunikasi, sedangkan VLAN yang berbeda tidak bisa berkomunikasi langsung tanpa inter-VLAN routing.
+  </li>
+  <li>
+Verifikasi dengan show vlan brief, show interface trunk, dan show vtp status menunjukkan apakah konfigurasi sudah berjalan dengan ba
+  </li>
+</ul>
+
+
+
+
+
+
+ 
 
