@@ -82,6 +82,40 @@ SWITCHING IN CISCO
 <h2>Konfigurasi pada Port Trunk</h2>
  <img  src="Konfigurasi pada Port Trunk SERVER.png" alt="cable"  width="300px">
 
- 
+<h2>Menyimpan konfigurasi di NVRAM</h2>
+ <img  src="Menyimpan konfigurasi di NVRAM SERVER.png" alt="cable"  width="300px">
 
+<h2 style="font-weight: bold;">Konfigurasi SWITCH VTP CLIENT</h2>
+
+<h2>Membuat Nama pada Switch</h2>
+ <img  src="Membuat Nama pada Switch CLIENT.png" alt="cable"  width="300px">
+ 
+<h2>Membuat Banner</h2>
+ <img  src="Membuat BanneR CLIENT.png" alt="cable"  width="300px">
+
+<h2>Membuat sandi / password</h2>
+ <img  src="Membuat sandi  password CLIENT.png" alt="cable"  width="300px">
+
+<h2>Konfigurasi VLAN untuk member port</h2>
+ <img  src="Konfigurasi VLAN untuk member port CLIENT.png" alt="cable"  width="300px">
+
+<h2>Konfigurasi Server VTP</h2>
+
+<h2>Konfigurasi pada Port Trunk</h2>
+ <img  src="Konfigurasi pada Port Trunk CLIENT.png" alt="cable"  width="300px">
+
+<h2>Menyimpan konfigurasi di NVRAM</h2>
+ <img  src="Menyimpan konfigurasi di NVRAM CLIENT.png" alt="cable"  width="300px">
+
+<h2 style="font-weight: bold;">Melihat status VTP pada SERVER</h2>
+ <img  src="Melihat status VTP pada SERVER.png" alt="cable"  width="300px">
+
+<h2 style="font-weight: bold;">Melihat status VTP pada CLIENT</h2>
+ <img  src="Melihat status VTP pada CLIENT.png" alt="cable"  width="300px">
+ 
+<h2 style="font-weight: bold;">Melihat status VTP pada SERVER</h2>
+ <img  src="Melihat status VTP pada SERVER.png" alt="cable"  width="300px">
+
+<h2 style="font-weight: bold;">Melihat status VTP pada CLIENT</h2>
+ <img  src="Melihat status VTP pada CLIENT.png" alt="cable"  width="300px">
 
